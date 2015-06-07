@@ -1,0 +1,111 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{Liana L. Lo} % Your name
+\address{461 2nd Ave. \\ San Francisco, CA 94118} % Your address
+\address{(415)~$\cdot$~763~$\cdot$~7386 \\ liana.lixia@gmail.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Prezi}{March 2015 - Present}{Full-stack Software Developer in Core Product}{Budapest, Hungary}
+\item "Prezi for Teams", enterprise platform for our cloud-based (SaaS) presentation software.
+\item Working alongside a product owner, UX researcher, designer, data analyst, and three other engineers on sign-up flows, admin UI, and group payments (Braintree) with Django and Backbone.js in a microservice architecture glued together with Apache Thrift.
+\item Internationalization for nine languages, i18n.
+\item A/B testing with Prezi's "feature-switcher" system.
+\item Integrated logging, monitoring, alerting.
+\item Occasional debugging on pre-production and live production nodes.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Prezi}{October 2014 - April 2015}{Software Engineer in Infrastructure, Internal Tools}{Budapest, Hungary}
+\item Built a front end UI in AngularJS for Prezi’s monitoring and alerting system. Tested with Jasmine, Karma, and Protractor. Automated development tasks with Grunt.
+\item Extended Prezi's monitoring API (written in Haskell) with a tagging feature for alerting configurations. Originally, alerting items could be searched only by name substring matching. The new feature allows developers to tag their items with an identifier, which in turn allows groupings of several related alerting items displayed in a single page view for easy analysis.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Hackbright Academy}{February 2014 – May 2014}{Software Engineering Fellow}{San Francisco, CA}
+\item Built a Scheme-to-JavaScript compiler and a JavaScript parser using Python.
+\item Constructed browser-based abstract syntax tree visualizer using JavaScript/jQuery/Ajax/JSON, D3.js, HTML, CSS; deployed to Heroku.
+\item Set up PostgreSQL database using SQLAlchemy containing example input for visualizer.
+\item More details at github.com/lolilo/VisuaLisPy
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of California, Berkeley} \hfill {\em Berkeley, CA} \\ 
+B.S. in Chemical Engineering, June 2013 \\
+Minor in Indistural Engineering and Operations Research \smallskip
+
+{\bf Peking University}, University of California Education Abroad Program \hfill {\em Beijing, China} \\ 
+Intensive Chinese Program, February 2013 – June 2013 \smallskip
+
+{\bf National Taiwan Normal University}, Oversera Community Affairs Council \hfill {\em Taipei, Taiwan} \\ 
+Chinese Language and Culture, June 2014 – August 2014 \smallskip \\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Technical Strengths}
+
+% \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+% Computer Languages & Python, JavaScript, HTML, CSS \\
+% Protocols \& APIs & XML, JSON, REST \\
+% Databases & MySQL, PostgreSQL, SQLite \\
+% Tools & SVN (Git), Vim, Sublime, IntelliJ
+% \end{tabular}
+
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
