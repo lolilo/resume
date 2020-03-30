@@ -34,12 +34,12 @@
 %   SUMMARY SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Tools}
-
-Python, Go, JavaScript, HTML, CSS, LESS \enspace $\diamond$ \enspace Flask, Django, Backbone \enspace $\diamond$ \enspace Cucumber \\
-MySQL, PostgreSQL, SQLite \enspace $\diamond$ \enspace Git, GitHub \enspace $\diamond$ \enspace Vim, Sublime, IntelliJ \enspace $\diamond$ \enspace AWS, Chef, Jenkins \smallskip
-
-\end{rSection}
+%\begin{rSection}{Tools}
+%
+%Python, Go, JavaScript, HTML, CSS, LESS \enspace $\diamond$ \enspace Flask, Django, Backbone \enspace $\diamond$ \enspace Cucumber \\
+%MySQL, PostgreSQL, SQLite \enspace $\diamond$ \enspace Git, GitHub \enspace $\diamond$ \enspace Vim, Sublime, IntelliJ \enspace $\diamond$ \enspace AWS, Chef, Jenkins \smallskip
+%
+%\end{rSection}
 
 % \begin{rSection}{Summary}
 
@@ -61,18 +61,46 @@ MySQL, PostgreSQL, SQLite \enspace $\diamond$ \enspace Git, GitHub \enspace $\di
 
 \begin{rSection}{Industry Experience}
 
-\begin{rSubsection}{Prezi}{March 2015 - Present}{Full-stack Software Developer, Product Engineer}{Budapest, Hungary | San Francisco, CA}
+\begin{rSubsection}{Square}{April 2016 - Present}{Software Engineer - Cash App and Capital Servicing Platform}{San Francisco, CA}
+
+\item Lead for Consumer Dashboard authentication flow. Integrated with internal authentication system originally built for Square merchants. Communicated technical needs to Square's authentication team to extend the authentication system to a platform that would support several types of customers.
+\item Lead for hold rate relief project. Built support to provide hold rate relief for flex loan sellers experiencing hardship, supporting a variable hold rate across payment captures, refunds, and chargebacks. Coordinated work with financing, investor reporting, seller dashboard, and ops platform teams.
+\item Lead for multi-loan project. Consumer Financing previously limited each person to one active loan at a given time. Defined new risk rules, updated finance and customer identity models, and changed application flow logic to support multi-loan. Collaborated with product, data science, design, and customer operations. Organized work amongst four engineers.
+%\item Developed features for Square's first consumer credit reporting system. Built bankruptcy and disputes models, collaborating with our platform team that introduced a new delinquency system in parallel. Built internal auditing tools, working directly with our operations lead.
+\item Backend APIs for servicing and operations (payment processing, email delivery jobs, external Consumer Dashboard, internal admin console) in Ruby and Java.
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+%\begin{rSubsection}{Square}{June 2017 - September 2019}{Software Engineer, Installments Servicing}{San Francisco, CA}
+%
+%\item Lead for Consumer Dashboard authentication flow. Integrated with internal authentication system originally built for Square merchants. Communicated technical needs to Square's authentication team to extend the authentication system to a platform that would support several types of customers and collaborated on their delivery.
+%\item Backend APIs for servicing and operations (external Consumer Dashboard, internal admin console).
+%
+%\end{rSubsection}
+
+%------------------------------------------------
+
+%\begin{rSubsection}{Square}{April 2016 - June 2017}{Software Engineer, Cash}{San Francisco, CA}
+%
+%\item Server side payment routing and payment processing integration, money movement event data feed for Reconciliation Engineering team consumption.
+%
+%\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Prezi}{March 2015 - April 2016}{Full-stack Software Developer, Product Engineer}{Budapest, Hungary | San Francisco, CA}
 % \item ``Prezi for Teams'' is the enterprise platform for our cloud-based (SaaS) presentation software.
-\item Align closely with our product manager, UX researcher, designer, and data analyst to define impactful projects with measurable outcomes. Designed A/B tests with feature switches.
+\item Initialized new microservices (email verification, editor client); configured AWS EC2 instances, ELB, MySQL RDS, automated build and deploy pipelines. Experience with Chef and Jenkins.
 \item Developed, tested, deployed, and owned responsive user sign up flows, onboarding features, and admin management panels with logging, monitoring, and alerting.
+\item Created API for one-step test data creation, used in automated integration tests and manual tests.
+\item Deleted seven years' worth of test data from production databases. Updated codebase to ensure future automated test data deletion.
 
 % \item Working alongside a product owner, UX researcher, designer, data analyst, and three other engineers on sign-up flows, admin management UI, and payments. Built with Django and Backbone.js in a microservice architecture.
 % \item Internationalization for nine languages, A/B testing, integrated logging, monitoring, alerting.
 % \item Debugging on pre-production and live production nodes.
 % \item Voluntarily participate in user interviews with our UX researcher to provide technical insight of product behavior.
-
-\item Created API for one-step test data creation, used in automated integration tests and manual tests.
-\item Initialized new microservice for email verification: set up AWS EC2 instances, ELB, MySQL RDS, configured build and deploy pipelines.
 
 \end{rSubsection}
 
@@ -86,10 +114,10 @@ MySQL, PostgreSQL, SQLite \enspace $\diamond$ \enspace Git, GitHub \enspace $\di
 
 %------------------------------------------------
 
-\begin{rSubsection}{Intel Corporation}{2011, 2012 summers; August 2013 - January 2014}{Quality Engineer}{Chandler, AZ}
-\item Identified microprocessor defect sources in high-volume manufacturing environment.
-% \item Continuously drove process improvements to reduce operating costs and maximize factory yield.
-\end{rSubsection}
+%\begin{rSubsection}{Intel Corporation}{2011, 2012 summers; August 2013 - January 2014}{Quality Engineer}{Chandler, AZ}
+%\item Identified microprocessor defect sources in high-volume manufacturing environment.
+%% \item Continuously drove process improvements to reduce operating costs and maximize factory yield.
+%\end{rSubsection}
 
 \end{rSection}
 
@@ -97,24 +125,24 @@ MySQL, PostgreSQL, SQLite \enspace $\diamond$ \enspace Git, GitHub \enspace $\di
 %   PERSONAL PROJECTS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Personal Projects}
-
-%------------------------------------------------
-
-\begin{rSubsection}{Remote Screen Controller}{github.com/lolilo/screen-controller}{}{}
-\item Program enables user to remotely manage content displayed on screens connected within a local network. One master controls slave devices (Raspberry Pi or Apple computers) connected to monitors.
-\item Practiced concepts in networking, cross-platform compatibility (Linux, OS X), and security (proxy, iptables, auth headers). Primarily written in Go.
-\end{rSubsection}
-
-%------------------------------------------------
-
-\begin{rSubsection}{VisuaLisPy}{github.com/lolilo/VisuaLisPy}{}{}
-\item Built a Scheme-to-JavaScript compiler and a JavaScript parser using Python.
-\item Constructed browser-based abstract syntax tree visualizer using Flask, JavaScript, jQuery, Ajax, D3.js, HTML, CSS. Deployed to Heroku.
-\item Set up PostgreSQL database using SQLAlchemy containing example input for visualizer.
-\end{rSubsection}
-
-\end{rSection}
+%\begin{rSection}{Personal Projects}
+%
+%%------------------------------------------------
+%
+%\begin{rSubsection}{Remote Screen Controller}{github.com/lolilo/screen-controller}{}{}
+%\item Program enables user to remotely manage content displayed on screens connected within a local network. One master controls slave devices (Raspberry Pi or Apple computers) connected to monitors.
+%\item Practiced concepts in networking, cross-platform compatibility (Linux, OS X), and security (proxy, iptables, auth headers). Primarily written in Go.
+%\end{rSubsection}
+%
+%%------------------------------------------------
+%
+%\begin{rSubsection}{VisuaLisPy}{github.com/lolilo/VisuaLisPy}{}{}
+%\item Built a Scheme-to-JavaScript compiler and a JavaScript parser using Python.
+%\item Constructed browser-based abstract syntax tree visualizer using Flask, JavaScript, jQuery, Ajax, D3.js, HTML, CSS. Deployed to Heroku.
+%\item Set up PostgreSQL database using SQLAlchemy containing example input for visualizer.
+%\end{rSubsection}
+%
+%\end{rSection}
 
 % ----------------------------------------------------------------------------------------
 %   SKILLS SECTION
@@ -143,15 +171,27 @@ MySQL, PostgreSQL, SQLite \enspace $\diamond$ \enspace Git, GitHub \enspace $\di
 % \end{rSection}
 
 %----------------------------------------------------------------------------------------
+%   TALKS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Talks}
+
+{\bf Recovering from a Dead API} \hfill {June 2016} \\
+{Square WomEng Hear + Now}  \hfill {youtube.com/watch?v=hJTgtYZw82k}
+
+{\bf Delivering a Feature from Conception to Deployment} \hfill {September 2015} \\
+{Refresh Conference}  \hfill {youtube.com/watch?v=ONPRzKve\_fg}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
 %   EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
 
 {\bf University of California, Berkeley} \hfill {\em Berkeley, CA} \\
-B.S. in Chemical Engineering, June 2013 \\
+Bachelor of Science in Chemical Engineering \\
 Minor in Industrial Engineering and Operations Research \\
-Semesters at Peking University and National Taiwan Normal University \smallskip
 
 % {\bf Peking University}, University of California Education Abroad Program \hfill {\em Beijing, China} \\
 % Intensive Chinese Program, February 2013 - June 2013 \smallskip
